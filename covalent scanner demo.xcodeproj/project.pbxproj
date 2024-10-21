@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		04DBB54B2CC6C3450062F6BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DBB52C2CC6C3430062F6BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DBB5332CC6C3430062F6BD;
+			remoteInfo = "covalent scanner demo";
+		};
+		04DBB5552CC6C3450062F6BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DBB52C2CC6C3430062F6BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DBB5332CC6C3430062F6BD;
+			remoteInfo = "covalent scanner demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DBB5342CC6C3430062F6BD /* covalent scanner demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "covalent scanner demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DBB54A2CC6C3450062F6BD /* covalent scanner demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "covalent scanner demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DBB5542CC6C3450062F6BD /* covalent scanner demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "covalent scanner demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04DBB55C2CC6C3450062F6BD /* Exceptions for "covalent scanner demo" folder in "covalent scanner demo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04DBB5332CC6C3430062F6BD /* covalent scanner demo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04DBB5362CC6C3430062F6BD /* covalent scanner demo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04DBB55C2CC6C3450062F6BD /* Exceptions for "covalent scanner demo" folder in "covalent scanner demo" target */,
+			);
+			path = "covalent scanner demo";
+			sourceTree = "<group>";
+		};
+		04DBB54D2CC6C3450062F6BD /* covalent scanner demoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "covalent scanner demoTests";
+			sourceTree = "<group>";
+		};
+		04DBB5572CC6C3450062F6BD /* covalent scanner demoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "covalent scanner demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DBB5312CC6C3430062F6BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBB5472CC6C3450062F6BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBB5512CC6C3450062F6BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DBB52B2CC6C3430062F6BD = {
+			isa = PBXGroup;
+			children = (
+				04DBB5362CC6C3430062F6BD /* covalent scanner demo */,
+				04DBB54D2CC6C3450062F6BD /* covalent scanner demoTests */,
+				04DBB5572CC6C3450062F6BD /* covalent scanner demoUITests */,
+				04DBB5352CC6C3430062F6BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DBB5352CC6C3430062F6BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DBB5342CC6C3430062F6BD /* covalent scanner demo.app */,
+				04DBB54A2CC6C3450062F6BD /* covalent scanner demoTests.xctest */,
+				04DBB5542CC6C3450062F6BD /* covalent scanner demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DBB5332CC6C3430062F6BD /* covalent scanner demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DBB55D2CC6C3450062F6BD /* Build configuration list for PBXNativeTarget "covalent scanner demo" */;
+			buildPhases = (
+				04DBB5302CC6C3430062F6BD /* Sources */,
+				04DBB5312CC6C3430062F6BD /* Frameworks */,
+				04DBB5322CC6C3430062F6BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04DBB5362CC6C3430062F6BD /* covalent scanner demo */,
+			);
+			name = "covalent scanner demo";
+			packageProductDependencies = (
+			);
+			productName = "covalent scanner demo";
+			productReference = 04DBB5342CC6C3430062F6BD /* covalent scanner demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DBB5492CC6C3450062F6BD /* covalent scanner demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DBB5622CC6C3450062F6BD /* Build configuration list for PBXNativeTarget "covalent scanner demoTests" */;
+			buildPhases = (
+				04DBB5462CC6C3450062F6BD /* Sources */,
+				04DBB5472CC6C3450062F6BD /* Frameworks */,
+				04DBB5482CC6C3450062F6BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DBB54C2CC6C3450062F6BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04DBB54D2CC6C3450062F6BD /* covalent scanner demoTests */,
+			);
+			name = "covalent scanner demoTests";
+			packageProductDependencies = (
+			);
+			productName = "covalent scanner demoTests";
+			productReference = 04DBB54A2CC6C3450062F6BD /* covalent scanner demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04DBB5532CC6C3450062F6BD /* covalent scanner demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DBB5652CC6C3450062F6BD /* Build configuration list for PBXNativeTarget "covalent scanner demoUITests" */;
+			buildPhases = (
+				04DBB5502CC6C3450062F6BD /* Sources */,
+				04DBB5512CC6C3450062F6BD /* Frameworks */,
+				04DBB5522CC6C3450062F6BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DBB5562CC6C3450062F6BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04DBB5572CC6C3450062F6BD /* covalent scanner demoUITests */,
+			);
+			name = "covalent scanner demoUITests";
+			packageProductDependencies = (
+			);
+			productName = "covalent scanner demoUITests";
+			productReference = 04DBB5542CC6C3450062F6BD /* covalent scanner demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DBB52C2CC6C3430062F6BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					04DBB5332CC6C3430062F6BD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					04DBB5492CC6C3450062F6BD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 04DBB5332CC6C3430062F6BD;
+					};
+					04DBB5532CC6C3450062F6BD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 04DBB5332CC6C3430062F6BD;
+					};
+				};
+			};
+			buildConfigurationList = 04DBB52F2CC6C3430062F6BD /* Build configuration list for PBXProject "covalent scanner demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DBB52B2CC6C3430062F6BD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04DBB5352CC6C3430062F6BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DBB5332CC6C3430062F6BD /* covalent scanner demo */,
+				04DBB5492CC6C3450062F6BD /* covalent scanner demoTests */,
+				04DBB5532CC6C3450062F6BD /* covalent scanner demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DBB5322CC6C3430062F6BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBB5482CC6C3450062F6BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBB5522CC6C3450062F6BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DBB5302CC6C3430062F6BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBB5462CC6C3450062F6BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBB5502CC6C3450062F6BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DBB54C2CC6C3450062F6BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DBB5332CC6C3430062F6BD /* covalent scanner demo */;
+			targetProxy = 04DBB54B2CC6C3450062F6BD /* PBXContainerItemProxy */;
+		};
+		04DBB5562CC6C3450062F6BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DBB5332CC6C3430062F6BD /* covalent scanner demo */;
+			targetProxy = 04DBB5552CC6C3450062F6BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04DBB55E2CC6C3450062F6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "covalent scanner demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.covalent-scanner-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DBB55F2CC6C3450062F6BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "covalent scanner demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.covalent-scanner-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04DBB5602CC6C3450062F6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04DBB5612CC6C3450062F6BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DBB5632CC6C3450062F6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.covalent-scanner-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/covalent scanner demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/covalent scanner demo";
+			};
+			name = Debug;
+		};
+		04DBB5642CC6C3450062F6BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.covalent-scanner-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/covalent scanner demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/covalent scanner demo";
+			};
+			name = Release;
+		};
+		04DBB5662CC6C3450062F6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.covalent-scanner-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "covalent scanner demo";
+			};
+			name = Debug;
+		};
+		04DBB5672CC6C3450062F6BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.covalent-scanner-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "covalent scanner demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DBB52F2CC6C3430062F6BD /* Build configuration list for PBXProject "covalent scanner demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBB5602CC6C3450062F6BD /* Debug */,
+				04DBB5612CC6C3450062F6BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DBB55D2CC6C3450062F6BD /* Build configuration list for PBXNativeTarget "covalent scanner demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBB55E2CC6C3450062F6BD /* Debug */,
+				04DBB55F2CC6C3450062F6BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DBB5622CC6C3450062F6BD /* Build configuration list for PBXNativeTarget "covalent scanner demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBB5632CC6C3450062F6BD /* Debug */,
+				04DBB5642CC6C3450062F6BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DBB5652CC6C3450062F6BD /* Build configuration list for PBXNativeTarget "covalent scanner demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBB5662CC6C3450062F6BD /* Debug */,
+				04DBB5672CC6C3450062F6BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DBB52C2CC6C3430062F6BD /* Project object */;
+}
