@@ -23,7 +23,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04DBB56C2CC6C35D0062F6BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04228BA32CC76F77003709FC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		04DBB5342CC6C3430062F6BD /* covalent scanner demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "covalent scanner demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DBB54A2CC6C3450062F6BD /* covalent scanner demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "covalent scanner demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DBB5542CC6C3450062F6BD /* covalent scanner demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "covalent scanner demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,11 +53,25 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		04DBB56D2CC6C35D0062F6BD /* Exceptions for "covalent scanner demo" folder in "Embed Frameworks" phase from "covalent scanner demo" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				BlinkID.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = 04DBB56C2CC6C35D0062F6BD /* Embed Frameworks */;
+			membershipExceptions = (
+				BlinkID.xcframework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		04DBB5362CC6C3430062F6BD /* covalent scanner demo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				04DBB55C2CC6C3450062F6BD /* Exceptions for "covalent scanner demo" folder in "covalent scanner demo" target */,
+				04DBB56D2CC6C35D0062F6BD /* Exceptions for "covalent scanner demo" folder in "Embed Frameworks" phase from "covalent scanner demo" target */,
 			);
 			path = "covalent scanner demo";
 			sourceTree = "<group>";
@@ -85,12 +113,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04228BA22CC76F76003709FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04228BA32CC76F77003709FC /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04DBB52B2CC6C3430062F6BD = {
 			isa = PBXGroup;
 			children = (
 				04DBB5362CC6C3430062F6BD /* covalent scanner demo */,
 				04DBB54D2CC6C3450062F6BD /* covalent scanner demoTests */,
 				04DBB5572CC6C3450062F6BD /* covalent scanner demoUITests */,
+				04228BA22CC76F76003709FC /* Frameworks */,
 				04DBB5352CC6C3430062F6BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +152,7 @@
 				04DBB5302CC6C3430062F6BD /* Sources */,
 				04DBB5312CC6C3430062F6BD /* Frameworks */,
 				04DBB5322CC6C3430062F6BD /* Resources */,
+				04DBB56C2CC6C35D0062F6BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58DD5445AB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "covalent scanner demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -296,6 +335,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58DD5445AB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "covalent scanner demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,6 +364,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
